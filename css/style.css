@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background: #000;
+}
+
+#container {
+    margin: 50px 50px;
+}
+
+#name {
+    font-family: 'Nunito', sans-serif;
+}
+
+#img-perfil {
+    background: url(../images/face.jpg) no-repeat 0 0 / 100%;
+    
+    border: 5px solid green;
+    border-radius: 35%;
+    height: 150px;
+    width: 150px;
+}
+
+#foto-perfil {
+    margin-top: 10px;
+}
+
+#informacoes-pessoais {
+    margin-top: 20px;
+    font-family: 'Nunito', sans-serif;
+}
+
+#hard-skills {
+    margin-top: 20px;
+}
+
+#hard-skills-list {
+    
+}
+
