@@ -4,54 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
 <body>
-    <div id="container">
-        <h1 id="name">Luís Carlos Goandete</h1>
+    <header>
+        <h1 class="name">Luís Carlos Goandete</h1>
+        <div class="img-perfil"></div>
+        <menu>
+            <a href="#informacoes-pessoais">Informações Pessoais</a>
+            <a href="#hard-skills">Hard Skills</a>
+            <a href="https://diolinux.com.br/" target="_blank">blog DioLinux</a>
+        </menu>
+    </header>
 
-        <div id="img-perfil">
-           <!-- <img id="foto-perfil" src="/images/face.jpg" alt="foto do perfil" width="150px"> -->
+    <div class="container">
+        <div class="informacoes-pessoais">
+            <h2>Informações Pessoais</h2>
+            <ul>
+                <li><strong>Nome:</strong> Luís Carlos Dias Goandete</li> 
+                <li><strong>Idade:</strong> 43 anos</li>
+                <li><strong>E-mail:</strong> lcgoandete@hotmail.com</li>
+                <li class="destaque"><strong>Nacionalidade:</strong> Brasileira</li>
+                <li class="destaque"><strong>Cidade:</strong> Porto Alegre/RS</li>
+            </ul>
         </div>
-        <h2 id="informacoes-pessoais">Informações Pessoais</h2>
-        <ul>
-            <li><strong>Nome:</strong> Luís Carlos Dias Goandete</li> 
-            <li><strong>Idade:</strong> 43 anos</li>
-            <li><strong>E-mail:</strong> lcgoandete@hotmail.com</li>
-            <li class="destaque"><strong>Nacionalidade:</strong> Brasileira</li>
-            <li class="destaque"><strong>Cidade:</strong> Porto Alegre/RS</li>
-        </ul>
-        
-        <h2 id="hard-skills">Hard Skills</h2>
-        <ul id="hard-skills-list">
-            <li>Delphi X</li>
-            <li>SQL</li>
-            <li><strong>Java</strong></li>
-            <li>Java FX</li>
-            <li>JPA</li>
-            <li>JSF</li>
-            <li>Hibernate</li>
-            <li>Spring-boot</li>
-            <li>Spring MVC</li>
-            <li>Primefaces</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Bootstrap</li>
-            <li>Javascript</li>
-            <li>Typescript</li>
-            <li>Python</li>
-            
-        </ul>
-
-        <a href="#foto-perfil"></a><br>
-        <a href="https://diolinux.com.br/" target="_blank">blog DioLinux</a><br>
-        
-        <ol>
-            <li><a href="#name"></a></li>
-            <li><a href="#informacoes-pessoais">Informações Pessoais</a></li>
-            <li><a href="#hard-skills">Hard Skills</a></li>
-        </ol>
+    
+        <div class="hard-skills">
+            <h2>Hard Skills</h2>
+            <ul>
+                <li>Delphi X</li>
+                <li>SQL</li>
+                <li><strong>Java</strong></li>
+                <li>Java FX</li>
+                <li>JPA</li>
+                <li>JSF</li>
+                <li>Hibernate</li>
+                <li>Spring-boot</li>
+                <li>Spring MVC</li>
+                <li>Primefaces</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+                <li>Javascript</li>
+                <li>Typescript</li>
+                <li>Python</li>
+            </ul>
+        </div>
     </div>    
 </body>
 </html>

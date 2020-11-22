@@ -5,41 +5,76 @@
 }
 
 body {
-    color: white;
-    background: #000;
+    background-color: rgb(189, 184, 184);
+    color: #000;
 }
 
-#container {
-    margin: 50px 50px;
+/* --- HEADER --- */
+/* --- HEADER --- */
+/* --- HEADER --- */
+
+header {
+    background-image: url(../images/fundo-fotografico.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 180px;
+    margin: auto;
+    max-width: 1200px;
 }
 
-#name {
+.name {
     font-family: 'Nunito', sans-serif;
+    font-size: 36px;
+    float: left;
+    margin-left: 200px;
+    
 }
 
-#img-perfil {
+.img-perfil {
     background: url(../images/face.jpg) no-repeat 0 0 / 100%;
-    
-    border: 5px solid green;
-    border-radius: 35%;
+    border: 2px solid #000;
+    border-radius: 50%;
     height: 150px;
+    margin-left: 20px;
     width: 150px;
 }
 
-#foto-perfil {
-    margin-top: 10px;
+header > menu > a{
+    color: #fff;
+    float: right;
+    margin-right: 50px;
+    text-decoration: none;
 }
 
-#informacoes-pessoais {
-    margin-top: 20px;
+/* --- CONTAINER --- */
+/* --- CONTAINER --- */
+/* --- CONTAINER --- */
+
+.container {
+    background-color: #fff;
+    margin: auto;
+    height: 600px;
+    max-width: 1200px;
+}
+
+ul {
+    list-style-type : none;
+}
+
+/* --- INF PESSOAIS --- */
+/* --- INF PESSOAIS --- */
+/* --- INF PESSOAIS --- */
+
+.informacoes-pessoais {
     font-family: 'Nunito', sans-serif;
+    margin-left: 15px;
 }
 
-#hard-skills {
+/* --- HARD SKILLS --- */
+/* --- HARD SKILLS --- */
+/* --- HARD SKILLS --- */
+
+.hard-skills {
     margin-top: 20px;
+    margin-left: 15px;
 }
-
-#hard-skills-list {
-    
-}
-
